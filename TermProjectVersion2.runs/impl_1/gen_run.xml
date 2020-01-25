@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1492716300">
+  <File Type="OPT-DCP" Name="TopDesign_opt.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="PWROPT-DCP" Name="TopDesign_pwropt.dcp"/>
+  <File Type="ROUTE-DCP" Name="TopDesign_routed.dcp"/>
+  <File Type="PA-TCL" Name="TopDesign.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="TopDesign_drc_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="TopDesign_drc_pwropted.rpt"/>
+  <File Type="OPT-HWDEF" Name="TopDesign.hwdef"/>
+  <File Type="PLACE-DCP" Name="TopDesign_placed.dcp"/>
+  <File Type="PLACE-IO" Name="TopDesign_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="TopDesign_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="TopDesign_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="TopDesign_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="TopDesign_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="TopDesign_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="TopDesign_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="TopDesign_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="TopDesign_physopt.dcp"/>
+  <File Type="RDI-RDI" Name="TopDesign.vdi"/>
+  <File Type="PHYSOPT-DRC" Name="TopDesign_drc_physopted.rpt"/>
+  <File Type="ROUTE-DRC" Name="TopDesign_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="TopDesign_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="TopDesign_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="TopDesign_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="TopDesign_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="TopDesign_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="TopDesign_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="TopDesign_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="TopDesign_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="TopDesign_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="TopDesign_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="TopDesign_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="TopDesign_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="TopDesign_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="TopDesign_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="TopDesign.bit"/>
+  <File Type="BG-BIN" Name="TopDesign.bin"/>
+  <File Type="BITSTR-MSK" Name="TopDesign.msk"/>
+  <File Type="BITSTR-RBT" Name="TopDesign.rbt"/>
+  <File Type="BITSTR-NKY" Name="TopDesign.nky"/>
+  <File Type="BITSTR-BMM" Name="TopDesign_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="TopDesign.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="TopDesign.sysdef"/>
+  <File Type="BG-BGN" Name="TopDesign.bgn"/>
+  <File Type="BG-DRC" Name="TopDesign.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Counter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/segDecoder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clockDiv.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Trigger_generator.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Distance_Calculation.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/BCD_Converter.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/segHighModule.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Range_Sensor_Second.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Range_Sensor.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TopDesign.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TopDesign"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pins.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
